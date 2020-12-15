@@ -50,7 +50,7 @@ class Animal extends React.Component {
             // <p>{this.state.categories}</p>
             <div className="container text-center">
                 <h2>Animal Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -92,7 +92,7 @@ class Career extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Career Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -134,7 +134,7 @@ class Celebrity extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Celebrity Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -176,7 +176,7 @@ class Dev extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Dev Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -218,7 +218,7 @@ class Fashion extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Fashion Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -260,7 +260,7 @@ class Science extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Science Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -303,7 +303,7 @@ class Political extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Political Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -345,7 +345,7 @@ class Religion extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Religion Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -387,7 +387,7 @@ class Music extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Music Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -430,7 +430,7 @@ class Sport extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Sport Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
@@ -472,7 +472,7 @@ class Travel extends React.Component {
         return (
             <div className="container text-center">
                 <h2>Travel Facts</h2>
-                <img src={this.state.img} width="50" height="50" />
+                <img src={this.state.img} alt="img" width="50" height="50" />
                 <p>{'"' + this.state.fact + '"'}</p> <br />
                 <p>{"Created On: " + this.state.date}</p>
                 <button type="button"
